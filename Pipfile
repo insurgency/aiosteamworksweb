@@ -7,7 +7,7 @@ verify_ssl = true
 sphinx = "*"
 
 [packages]
-aiohttp = "*"
+aiohttp = {extras = ["speedups"],version = "*"}
 
 [requires]
 python_version = "3.7"
