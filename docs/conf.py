@@ -17,3 +17,5 @@ html_static_path = ['_static']
 intersphinx_mapping = {
     'py': ('https://docs.python.org/{0.major}.{0.minor}'.format(sys.version_info), None),
 }
+autodoc_member_order = 'bysource'
+
