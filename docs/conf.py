@@ -18,6 +18,7 @@ html_static_path = ['_static']
 intersphinx_mapping = {
     'py': ('https://docs.python.org/{0.major}.{0.minor}'.format(sys.version_info), None),
     'aiohttp': ('https://docs.aiohttp.org/en/stable/', None),
+    'yarl': ('https://yarl.rtfd.io/en/stable/', None),
 }
 autodoc_member_order = 'bysource'
 extlinks = {
