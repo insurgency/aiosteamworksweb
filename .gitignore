@@ -1,2 +1,4 @@
 # Sphinx documentation build output
 docs/*build/
+
+resources/
