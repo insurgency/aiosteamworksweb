@@ -15,7 +15,7 @@ setup(
     classifiers=[
     ],
     license='MIT',
-    python_requires='>=3.7',
+    python_requires='>=3.8',
     test_suite='tests',
     install_requires=[
         'aiohttp >= 3.6.1',
