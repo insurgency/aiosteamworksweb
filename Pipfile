@@ -4,12 +4,10 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
-sphinx = "*"
-sphinx-autodoc-typehints = "*"
 documentation = {editable = true,git = "https://github.com/insurgency/docs.git"}
 
 [packages]
 aiohttp = {extras = ["speedups"],version = "*"}
 
 [requires]
-python_version = "3.7"
+python_version = "3.8"
